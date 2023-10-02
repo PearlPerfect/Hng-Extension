@@ -4,12 +4,12 @@ import Image from "next/image";
 import {useEffect,useState,useRef} from 'react'
 import styles from "./dashbord.module.css";
 import logo from '../../public/Images/iCON 7 1 (1).png'
-import profilePics from '../../../../public/Images/profile-circle.png'
-import arrow from '../../../../public/Images/arrow-down.png';
+import profilePics from '../../public/Images/profile-circle.png'
+import arrow from '../../public/Images/arrow-down.png';
 import {FaSistrix}from "react-icons/fa";
 import { signOut } from 'firebase/auth';
-import { auth } from '../services/_config'
-import searchIcon from '../../../../public/Images/search-normal.png'
+import { auth } from '../config/_config'
+import searchIcon from '../../public/Images/search-normal.png'
 
 
 
