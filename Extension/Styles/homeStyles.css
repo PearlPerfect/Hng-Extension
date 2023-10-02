@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:  84px;
+    top: 87px;
+    padding: 12px 100px 12px 100px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logo img{
+    width: 2rem;
+    height: 2rem;
+}
+.logo h2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #100A42;
+}
+nav .center{
+    display: flex;
+    gap: 48px;
+
+}
+.left{
+    width: 128px;
+height:  47px;
+padding: 12px 10px 12px 10px;
+border-radius: 5px;
+gap: 10px;
+border: none;
+text-align: center
+
+}
+.btn{
+    font-family: Sora;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #120B48;
+}
+
+.hero{
+    display: flex;
+}
+
+.heroDes{
+    font-family: Sora;
+font-size: 64px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+color: #141414;
+font-family: Sora;
+font-size: 64px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+
+}

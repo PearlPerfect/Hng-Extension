@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.content{
+    min-width: 300px;
+min-height: 439px;
+top: 150px;
+left: 1076px;
+padding: 24px 24px 32px 24px;
+border-radius: 24px;
+gap: 32px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logo img,
+.feature img,
+.right img,
+.left img{
+    width: 2rem;
+    height: 2rem;
+}
+.logo h2{
+    color: #120B48;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.des{  
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #413C6D;
+margin: 1rem auto;
+
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1ren;
+}
+.right,
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.rightDes{
+    font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color:#928FAB;
+}
+.leftDes{
+    font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #120B48;
+}
+
+.typeOptions,
+.typeOption{
+    display: flex;
+    width: 252px;
+height: 48px;
+padding: 12px 12px 12px 16px;
+border-radius: 12px;
+border: 1px solid #100A42;
+justify-content: space-between;
+margin: 1.2rem auto;
+}
+.typeOptions .left img,
+.typeOption .left img{
+    width: 3.5rem;
+    height: 1.5rem;
+}
+.typeOptions .right img{
+    width: 1rem;
+    height: 1.5rem;
+}
+.typeOption .right img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.button_cont button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background:#120B48;
+    color: #FAFDFF;
+    cursor: pointer;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+width: 100%;
+
+}
+
+.button_cont button:hover{
+    box-shadow: 1px 0px 10p #eee;
+}
