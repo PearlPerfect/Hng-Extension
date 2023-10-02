@@ -1,0 +1,47 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Sora:wght@600&family=Work+Sans:wght@700&display=swap');
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.img{
+    width: 2rem;
+    height: 2rem;
+}
+.logo_heading{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #100A42;
+}
+.center_nav{
+    display: flex;
+    gap:48px;
+    align-items: center;
+}
+.center_item{
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+.left_item{
+   color: #120B48;
+   font-family: Sora;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+
+}
