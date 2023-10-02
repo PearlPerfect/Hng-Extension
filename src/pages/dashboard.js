@@ -1,6 +1,6 @@
 import React,{useState  } from 'react'
 import { Grid,Stack,Box,Card,CssBaseline } from '@mui/material'
-import Auth from '@/context'
+import Auth from '@/context/AuthContext'
 import Dashboard from '@/layout/dashboard'
  
 
