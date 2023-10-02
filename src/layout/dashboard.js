@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {useEffect,useState,useRef} from 'react'
 import styles from "./dashbord.module.css";
-import logo from '../../../../public/Images/iCON 7 1 (1).png'
+import logo from '../../public/Images/iCON 7 1 (1).png'
 import profilePics from '../../../../public/Images/profile-circle.png'
 import arrow from '../../../../public/Images/arrow-down.png';
 import {FaSistrix}from "react-icons/fa";
