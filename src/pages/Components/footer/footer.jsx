@@ -1,7 +1,7 @@
 import React from "react";
-import styles from '../../../styles/Home.module.css';
+import styles from '/src/styles/Home.module.css';
 import Image from "next/image";
-import footerIcon from '../../../../public/Images/footer Icon.png'
+import footerIcon from '../../../Images/footer Icon.png'
 
 export default function Footer(){
     return(

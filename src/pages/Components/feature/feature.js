@@ -1,10 +1,10 @@
 import React from "react";
-import styles from '../styles/featured.module.css';
+import styles from './feature.module.css';
 import Image from "next/image";
-import videoRepo from '../../public/Images/Video Repository.png'
-import des1 from '../../public/Images/record-circle.png'
-import des2 from '../../public/Images/send-2.png'
-import des3 from '../../public/Images/refresh-square-2.png'
+import videoimg from '/src/images/Video Repository.png'
+import circle from '/src/images/record-circle.png'
+import send from '/src/images/send-2.png'
+import refresh from '/src/images/refresh-square-2.png'
 
 export default function Feature(){
     return(
@@ -16,7 +16,7 @@ export default function Feature(){
             <div className={styles.right}>
                <div className={ styles.eachdescription}>
                <div className={styles.img_icon}>
-                    <Image src={des1} alt="icon1" className={styles.icon}/>
+                    <Image src={circle} alt="icon1" className={styles.icon}/>
                     </div>
                 <div className={styles.IconDes}>
                     <h3 className={styles.FeaturedTitle}>Simple Screen Recording</h3>
@@ -26,7 +26,7 @@ export default function Feature(){
 
                 <div className={ styles.eachdescription}>
                 <div className={styles.img_icon}>
-                    <Image src={des2} alt="icon1" className={styles.icon}/>
+                    <Image src={send} alt="icon1" className={styles.icon}/>
                     </div>
                 <div className={styles.IconDes}>
                     <h3 className={styles.FeaturedTitle}>Easy-to-Share URL</h3>
@@ -36,7 +36,7 @@ export default function Feature(){
                 <div className={ styles.eachdescription}>
                     <div className={styles.img_icon}>
 
-                    <Image src={des3} alt="icon1" className={styles.icon} />
+                    <Image src={refresh} alt="icon1" className={styles.icon} />
                     </div>
                 <div className={styles.IconDes} >
                     <h3 className={styles.FeaturedTitle}>Revisit Recordings</h3>
@@ -44,7 +44,7 @@ export default function Feature(){
                 </div>
                 </div>
             </div>
-            <div className={styles.left}><Image src={videoRepo} alt="video-repo" /></div>
+            <div className={styles.left}><Image src={videoimg} alt="video-repo" /></div>
 
                
             </div>

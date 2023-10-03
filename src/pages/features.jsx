@@ -1,8 +1,8 @@
 import React from 'react'
-import WorkFlow from './Components/Work/work'
+import Feature from './Components/feature/feature'
 
 export default function Signin() {
   return (
-    <div><WorkFlow/></div>
+    <div><Feature/></div>
   )
 }

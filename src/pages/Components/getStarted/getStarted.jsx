@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 import styles from './getStarted.module.css';
 import Link from "next/link";
-import Logo from "../../../../public/Images/iCON 7 1 (1).png";
-import vector from '../../../../public/Images/vec.png';
-import medal from '../../../../public/Images/medal.png'
-import star from '../../../../public/Images/Star 1.png';
-import dashboard from '../../../../public/Images/Frame 163530.png';
-import leftArrow from '../../../../public/Images/arrow.png';
-import rightArrow from '../../../../public/Images/arrow (1).png'
+import Logo from '../../../Images/iCON 7 1 (1).png';
+import vector from '../../../Images/vec.png';
+import medal from '../../../Images/medal.png'
+import star from '../../../Images/Star 1.png';
+import dashboard from '../../../Images/Frame 163530.png';
+import leftArrow from '../../../Images/arrow.png';
+import rightArrow from '../../../Images/arrow (1).png'
 
 export default function GetStarted(){
     return(
@@ -16,9 +16,9 @@ export default function GetStarted(){
         <section>
         <div className={styles.top}>
         <div className={styles.right}>
-            <div className="icon">
-                <Image src={Logo} alt="logo"></Image>
-            </div>
+            <Link  href={"/"}  className="icon">
+                <Image  src={Logo} alt="logo"></Image>
+            </Link>
             <div className="description">
                 <h1 className={styles.logoDes}>HelpMeOut</h1>
                 <div className={styles.features}>
@@ -67,7 +67,7 @@ export default function GetStarted(){
             <div  className={styles.frame}>
             <Image src={leftArrow} alt="dashbord" className={styles.arrow}></Image>
             <Image src={dashboard} alt="dashbord"></Image>
-                <Image src={rightArrow} alt="dashbord" className={styles.arrow}></Image>
+             <Image src={rightArrow} alt="dashbord" className={styles.arrow}></Image>
             </div>
        
         </>

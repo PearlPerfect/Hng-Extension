@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&family=Work+Sans:wght@400;500&display=swap');
 
 .container{
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +59,8 @@ color:#141414;
     position: Fixed;
     width: 100vw;
 height: 69px;
-left: 100px;
+padding:0px 95px  ;
+/* left: 100px; */
 display: flex;
 justify-content: space-between;
 align-items: center;

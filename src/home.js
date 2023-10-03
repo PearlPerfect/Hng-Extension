@@ -1,13 +1,13 @@
 import React from "react";
-import styles from '../styles/Home.module.css';
+import styles from './styles/Home.module.css';
 import Image from "next/image";
-import arrow from '../../public/Images/arrow-right.png'
-import HeroImage1 from '../../public/Images/Hero_img1.png'
-import HeroImage2 from  '../../public/Images/Hero_img2.png'
-import HeroImage3 from '../../public/Images/Hero_img3.png'
+import arrow from '../src/images/arrow-right.png'
+import HeroImage1 from './Images/Hero_img1.png'
+import HeroImage2 from  './Images/Hero_img2.png'
+import HeroImage3 from './Images/Hero_img3.png'
 
 
-export default function Index() {
+export default function Hero() {
     return(
         <>
         <section>
@@ -20,8 +20,8 @@ export default function Index() {
 
                 <div className={ styles.hero_left}>
                 <div><Image src={HeroImage1} alt="images"/></div>
-                <div  className={styles.img3}><Image src={HeroImage3}   alt="images"/></div>
                 <div><Image src={HeroImage2} alt="images"/></div>
+                <div  className={styles.img3}><Image src={HeroImage3}   alt="images"/></div>
               
 </div>
             </div>
