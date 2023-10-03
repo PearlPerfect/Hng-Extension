@@ -4,10 +4,10 @@ import Image from "next/image";
 import {useEffect,useState,useRef} from 'react'
 import styles from "./dashboard.module.css";
 import logo from '../../../Images/iCON 7 1 (1).png'
-import profilePics from '/src/images/profile-circle.png'
-import arrow from '/src/images/arrow-down.png';
+import profilePics from '../../../Images/profile-circle.png'
+import arrow from '../../../Images/arrow-down.png';
 import { auth } from "@/config/_config";
-import searchIcon from '/src/images/search-normal.png'
+import searchIcon from '../../../Images/search-normal.png'
 import { InputAdornment,TextField } from "@mui/material";
 import { useRouter } from 'next/router';
 

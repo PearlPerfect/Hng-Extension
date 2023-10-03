@@ -1,10 +1,10 @@
 import React from "react";
 import styles from './feature.module.css';
 import Image from "next/image";
-import videoimg from '/src/images/Video Repository.png'
-import circle from '/src/images/record-circle.png'
-import send from '/src/images/send-2.png'
-import refresh from '/src/images/refresh-square-2.png'
+import videoimg from '../../../Images/Video Repository.png'
+import circle from '../../../Images/record-circle.png'
+import send from '../../../Images/send-2.png'
+import refresh from '../../../Images/refresh-square-2.png'
 
 export default function Feature(){
     return(

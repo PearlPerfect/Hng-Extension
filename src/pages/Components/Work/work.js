@@ -1,10 +1,10 @@
 import React from "react";
 import styles from './work.module.css'
 import Image from "next/image";
-import one from '/src/images/one.png'
-import two from '/src/images/two.png'
-import three from '../../../../src/Images/three.png'
-import workCard from '/src/images/rec-1.cb7888a47e24214aeb105805426a8300.svg.png'
+import one from '../../../Images/one.png'
+import two from '../../../Images/two.png'
+import three from '../../../Images/three.png'
+import workCard from '../../../Images/rec-1.cb7888a47e24214aeb105805426a8300.svg.png'
 
 export default function WorkFlow(){
     return(

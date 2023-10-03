@@ -2,15 +2,15 @@
 import Head from 'next/head';
 import React, { useState } from 'react';
 import{CssBaseline,CircularProgress }from '@mui/material'
-import styles from '/src/styles/Home.module.css'
+import styles from '../../../styles/Home.module.css'
 import { auth } from '@/config/_config';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword,FacebookAuthProvider, GoogleAuthProvider,
   signInWithPopup } from 'firebase/auth';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import logo from '../../../Images/iCON 7 1 (1).png';
-import Google from '/src/images/Google svg.png';
-import facebook from '/src/images/Facebook svg.png'
+import Google from '../../../Images/Google svg.png';
+import facebook from '../../../Images/Facebook svg.png'
 
 export default function Sign() {
     const router = useRouter()

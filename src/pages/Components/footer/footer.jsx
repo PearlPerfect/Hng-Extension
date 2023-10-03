@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '/src/styles/Home.module.css';
+import styles from '../../../styles/Home.module.css';
 import Image from "next/image";
 import footerIcon from '../../../Images/footer Icon.png'
 
